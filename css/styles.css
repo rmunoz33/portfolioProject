@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: black; }
+
+h1,
+h2,
+h3 {
+  font-family: "Orbitron"; }
+
+.card-body {
+  background-color: #1dff00;
+  color: black; }
+
+h2 {
+  color: #CEC8FF; }
+
+header h2 {
+  color: white; }
+
+.site-footer {
+  background-color: black;
+  padding: 20px 0px;
+  color: white; }
+
+.card-title {
+  line-height: middle; }
+
+.jumbotron {
+  padding: 30px;
+  color: white;
+  background-image: linear-gradient(to bottom, #1dff00, #000000, #000000);
+  margin: 0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #901cad; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0; }
+
+.choice {
+  height: 180px;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  align-items: center;
+  transition: width 0.2s;
+  border-radius: 3px; }
+
+.expand {
+  width: 90%; }
+
+.unset {
+  width: 16%;
+  background-color: #ddd !important; }
+
+.small {
+  width: 2%;
+  background-color: #1dff00; }
+
+.small > div {
+  opacity: 0; }
+
+.unset > div > p {
+  opacity: 0; }
+
+.expand > div {
+  transition-delay: 200ms;
+  opacity: 1; }
