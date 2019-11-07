@@ -1,3 +1,5 @@
+$neon-green: #1dff00;
+
 body {
     font-family: "Open Sans", sans-serif;
     color: white;
@@ -11,7 +13,7 @@ h3 {
 }
 
 .card-body {
-    background-color: #1dff00;
+    background-color: $neon-green;
     color: black;
 }
 
@@ -36,7 +38,7 @@ header h2 {
 .jumbotron {
     padding: 30px;
     color: white;
-    background-image: linear-gradient(to bottom, #1dff00, #000000, #000000);
+    background-image: linear-gradient(to bottom, $neon-green, #000000, #000000);
     margin: 0;
 }
 
@@ -87,7 +89,7 @@ header h2 {
 .small {
     width: 2%;
     // background-color: #ddd !important;
-    background-color: #1dff00;
+    background-color: $neon-green;
 }
 
 .small>div {
@@ -105,4 +107,14 @@ header h2 {
 
 .choice, .small, .expand {
     // height: auto;
+}
+
+.loginButton {
+    background-color: $neon-green;
+    color: black;
+}
+
+.cardButton {
+    background-color: black;
+    color: white;
 }

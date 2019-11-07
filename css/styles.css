@@ -81,3 +81,11 @@ header h2 {
 .expand > div {
   transition-delay: 200ms;
   opacity: 1; }
+
+.loginButton {
+  background-color: #1dff00;
+  color: black; }
+
+.cardButton {
+  background-color: black;
+  color: white; }
