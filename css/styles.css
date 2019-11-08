@@ -1,7 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: white;
-  background-color: black; }
+  background-color: black;
+  height: 100%; }
 
 h1,
 h2,
@@ -87,5 +88,13 @@ header h2 {
   color: black; }
 
 .cardButton {
+  background-color: black;
+  color: white; }
+
+.modal-header {
+  background-color: #1dff00;
+  color: black; }
+
+.modal-body {
   background-color: black;
   color: white; }
